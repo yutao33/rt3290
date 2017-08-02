@@ -1,0 +1,12 @@
+Source: rtbth-dkms
+Section: universe/admin
+Priority: optional
+Maintainer: Alex Profanov <barracuda72@bk.ru>
+Build-Depends: debhelper (>= 7), dkms, linux-headers-generic
+Standards-Version: 3.8.1
+
+Package: rtbth-dkms
+Architecture: all
+Depends: dkms (>= 1.95), libc6:amd64
+Description: Source code for Ralink 3298 Bluetooth Driver
+ Kernel driver for Ralink 3298 Bluetooth Adapter

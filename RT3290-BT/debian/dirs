@@ -1,0 +1,4 @@
+usr/src
+etc/modprobe.d
+usr/lib/pm-utils/sleep.d
+usr/bin
